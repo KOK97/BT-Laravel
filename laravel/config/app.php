@@ -123,4 +123,6 @@ return [
         'store' => env('APP_MAINTENANCE_STORE', 'database'),
     ],
 
+    'Session' => Illuminate\Support\Facades\Session::class,
+    'Hash' => Illuminate\Support\Facades\Hash::class,
 ];
